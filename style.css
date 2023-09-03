@@ -30,6 +30,13 @@ h1 {
     line-height: 21px;
     max-width: 336px;
     margin: auto;
+    position: relative;
+}
+
+.email-img {
+    position: absolute;
+    top: 147px;
+    left: 285px;
 }
 
 .email-label {
@@ -66,6 +73,7 @@ button {
     max-width: 336px;
     height: 55px;
     border: none;
+    cursor: pointer;
     background: #FC2469;
     box-shadow: 0px 2.76726px 2.21381px 0px rgba(0, 0, 0, 0.02), 0px 6.6501px 5.32008px 0px rgba(0, 0, 0, 0.03), 0px 12.52155px 10.01724px 0px rgba(0, 0, 0, 0.04);
 }
@@ -78,7 +86,7 @@ button {
     margin-top: 34px;
 }
 
-.login-img{
+.login-img {
     max-width: 106.5px;
     align-self: center;
     margin-top: -10px;
@@ -90,11 +98,54 @@ button {
     font-size: 16px;
     font-weight: 400;
     line-height: 21px;
-    
 }
 
-    
+.media {
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    max-width: 340px;
+}
 
-    {}
+.media-button {
+    border-radius: 6px;
+    background: var(--sth-darkgrey, #484848);
+    box-shadow: 0px 2.76726px 2.21381px 0px rgba(0, 0, 0, 0.02), 0px 6.6501px 5.32008px 0px rgba(0, 0, 0, 0.03), 0px 12.52155px 10.01724px 0px rgba(0, 0, 0, 0.04);
+    height: 55px;
+    width: 105px;
+    margin: 0;
+}
 
-    {}
+.bottom {
+    padding-top: 138px;
+    max-width: 223px;
+    margin: auto;
+
+}
+
+.bottom-text1 {
+    color: var(--primary-grey-2, #D8D8DD);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.16px;
+}
+
+.bottom-text2 {
+    color: #FC2469;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.16px;
+}
+
+.bottom-line {
+    border-radius: 100px;
+    width: 135px;
+    display: block; 
+    margin: auto;
+}
+
