@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <section>
         <h1>Login</h1>
         <form method="post">
             <div class="email">
                 <label class="email-label" for="email">Email</label>
-                <input class="email-input" type="email" name="email" placeholder="Email Address" required/>
+                <input class="email-input" type="email" name="email" placeholder="Email Address" required />
                 <label class="email-label" for="password">Password</label>
-                <input class="email-input" type="password" name="password" minlength="8" placeholder="Password" required/>
+                <input class="email-input" type="password" name="password" minlength="8" placeholder="Password" required />
+                <div class="box">
+                    <input class="checkbox" type="checkbox"  id="box" />
+                    <label for="box">Remember me</label>
+                    <a class="checkbox-link" href="">Forgot password?</a>   
+                </div>  
                 <button type="submit">Login</button>
                 <img class="email-img" src="IMG/visibility-off.png" alt="visibility-off">
             </div>
@@ -27,7 +34,8 @@
         <div class="media">
             <button class="media-button" type="button"><a href=""><img src="IMG/google.png" alt="google"></a></button>
             <button class="media-button" type="button"><a href=""></a><img src="IMG/apple.png" alt="apple"></button>
-            <button class="media-button" type="button"><a href=""><img src="IMG/facebook.png" alt="facebook"></a></button>
+            <button class="media-button" type="button"><a href=""><img src="IMG/facebook.png"
+                        alt="facebook"></a></button>
         </div>
         <div class="bottom">
             <p>
@@ -37,6 +45,6 @@
             <img class="bottom-line" src="IMG/Rectangle.png" alt="line">
         </div>
     </section>
-    
+
 </body>
 </html>
