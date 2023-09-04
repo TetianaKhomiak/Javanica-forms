@@ -36,7 +36,7 @@ h1 {
 .email-img {
     position: absolute;
     top: 147px;
-    left: 285px;
+    left: 84%;
 }
 
 .email-label {
@@ -221,6 +221,5 @@ button {
     max-width: 320px;
     display: flex;
     justify-content: space-between;
-    margin-left: -12%;
-    
+    margin-left: -12%;   
 }
