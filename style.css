@@ -20,8 +20,8 @@ h1 {
     font-size: 36px;
     font-weight: 700;
     text-align: center;
-    padding-top: 164px;
-    margin: 0;
+    padding-top: 35%;
+
 }
 
 .email {
@@ -32,8 +32,9 @@ h1 {
     font-size: 16px;
     font-weight: 700;
     line-height: 21px;
-    max-width: 336px;
+    width: 84.5%;
     margin: auto;
+    margin-top: 10%;
     position: relative;
 }
 
@@ -49,7 +50,7 @@ h1 {
 
 .email-input {
     margin-bottom: 15px;
-    max-width: 336px;
+    max-width: 100%;
     height: 55px;
     border: none;
     border-radius: 6px;
@@ -74,7 +75,7 @@ button {
     font-weight: 700;
     line-height: 27px;
     border-radius: 6px;
-    max-width: 336px;
+    max-width: 100%;
     height: 55px;
     border: none;
     cursor: pointer;
@@ -91,10 +92,15 @@ button {
 }
 
 .login-img {
-    max-width: 106.5px;
+    max-width: 31.3%;
     align-self: center;
     margin-top: -10px;
 }
+
+.login-img img {
+    max-width: 100%;
+}
+
 
 .login-text {
     color: var(--primary-grey-2, #D8D8DD);
@@ -108,7 +114,7 @@ button {
     display: flex;
     gap: 10px;
     margin: auto;
-    max-width: 340px;
+    width: 84.5%;
 }
 
 .media-button {
@@ -116,15 +122,14 @@ button {
     background: var(--sth-darkgrey, #484848);
     box-shadow: 0px 2.76726px 2.21381px 0px rgba(0, 0, 0, 0.02), 0px 6.6501px 5.32008px 0px rgba(0, 0, 0, 0.03), 0px 12.52155px 10.01724px 0px rgba(0, 0, 0, 0.04);
     height: 55px;
-    width: 105px;
+    width: 32%;
     margin: 0;
 }
 
 .bottom {
-    padding-top: 35%;
-    max-width: 223px;
-    margin: auto;
-
+    width: 100%;
+    text-align: center;
+    padding-top: 33%;
 }
 
 .bottom-text1 {
@@ -209,7 +214,7 @@ button {
     font-weight: 400;
     line-height: 21px;
     margin-left: -20px;
-    margin-right: 16.3% ;
+    margin-right: 16.3%;
 }
 
 
@@ -219,6 +224,26 @@ button {
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
-    text-decoration-line: underline;   
+    text-decoration-line: underline;
 }
 
+@media (max-width: 403px) {
+    
+    .box {
+        display: flex;
+        flex-direction: column;
+        margin-left: 6%;
+    }
+
+    .checkbox-link {
+        padding-top: 10%;
+    }
+
+    .login-text {
+        font-size: 14px;  
+    }
+
+    .bottom {
+        padding-top: 22%;
+    }
+}
