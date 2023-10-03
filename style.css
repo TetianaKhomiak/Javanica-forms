@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@700&family=Poppins:wght@300;600&family=Sintony:wght@400;700&family=Tomorrow&display=swap');
 
 section {
-    max-width: 414px;
-    height: 896px;
     background: url(IMG/background.jpg) no-repeat;
     background-size: cover;
     margin: auto;
@@ -21,7 +19,6 @@ h1 {
     font-weight: 700;
     text-align: center;
     padding-top: 35%;
-
 }
 
 .box {
@@ -44,25 +41,25 @@ h1 {
 
 .email-img {
     position: absolute;
-    top: 147px;
+    top: 48.5%;
     left: 84%;
 }
 
 .email-label {
-    margin-bottom: 8px;
+    
+    margin: 5% 0 2% 0;
 }
 
 .email-input {
-    margin-bottom: 15px;
-    width: 100%;
+    width: 90%;
     height: 55px;
     border: none;
     border-radius: 6px;
     background: var(--primary-grey-2, #D8D8DD);
     outline: none;
     margin: auto;
+    padding-left: 10%;
 }
-
 
 ::placeholder {
     color: var(--sth-lightgrey, #A09F99);
@@ -136,7 +133,7 @@ button {
 .bottom {
     width: 100%;
     text-align: center;
-    padding-top: 33%;
+    margin-top: 36%;
 }
 
 .bottom-text1 {
@@ -160,9 +157,10 @@ button {
 
 .bottom-line {
     border-radius: 100px;
-    width: 135px;
+    width: 34%;
     display: block;
     margin: auto;
+    padding-bottom: 2%;
 }
 
 .checkbox {
@@ -235,7 +233,10 @@ button {
 }
 
 @media (max-width: 403px) {
-    
+    .email-img {
+        top: 40%; 
+    }
+
     .box {
         display: flex;
         flex-direction: column;
@@ -250,7 +251,4 @@ button {
         font-size: 14px;  
     }
 
-    .bottom {
-        padding-top: 22%;
-    }
 }
